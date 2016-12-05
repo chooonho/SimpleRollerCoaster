@@ -46,11 +46,6 @@ void Environment::drawGround()
 		glTexCoord2f(0.0f, maxTextureCoord); glVertex3f(-100.0f, 0.0f, -100.0f);
 	glEnd();
 
-	glPushMatrix();
-		glTranslatef(50, 25, 50);
-		glutSolidCone(10, 50, 30, 30);
-	glPopMatrix();
-
 	if (mEnableTexture)
 	{
 		glBindTexture(GL_TEXTURE_2D, 0);
@@ -190,6 +185,11 @@ void Environment::draw()
 	{
 		glEnable(GL_TEXTURE_2D);
 	}
+	else
+	{
+		glEnable(GL_COLOR_MATERIAL);
+		glColor3f(0.5, 0.5, 0.5);
+	}
 
 	drawGround();
 	drawSky();
@@ -197,6 +197,10 @@ void Environment::draw()
 	if (mEnableTexture)
 	{
 		glDisable(GL_TEXTURE_2D);
+	}
+	else
+	{
+		glDisable(GL_COLOR_MATERIAL);
 	}
 }
 

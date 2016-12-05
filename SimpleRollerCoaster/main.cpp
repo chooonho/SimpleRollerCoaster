@@ -76,7 +76,7 @@ void renderBitmapCharacter(int x, int y, void *font, char *string)
 			for (characterPtr = string; *characterPtr != '\0'; characterPtr++) {
 				glutBitmapCharacter(font, *characterPtr);
 			}
-			glColor3f(0.8f, 0.8f, 0.8f);
+			glColor3f(1.0f, 1.0f, 1.0f);
 		glPopMatrix();
 		glMatrixMode(GL_PROJECTION);
 	glPopMatrix();

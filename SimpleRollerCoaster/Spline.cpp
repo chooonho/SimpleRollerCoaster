@@ -391,7 +391,8 @@ void Spline::draw()
 	}
 	else
 	{
-		glColor3f(0.5, 0.5, 0.5);
+		glEnable(GL_COLOR_MATERIAL);
+		glColor3f(0.2, 0.2, 0.2);
 	}
 
 	for (int i = 0; i < mSegmentCount; i++)
@@ -406,6 +407,10 @@ void Spline::draw()
 	{
 		glBindTexture(GL_TEXTURE_2D, 0);
 		glDisable(GL_TEXTURE_2D);
+	}
+	else
+	{
+		glDisable(GL_COLOR_MATERIAL);
 	}
 }
 

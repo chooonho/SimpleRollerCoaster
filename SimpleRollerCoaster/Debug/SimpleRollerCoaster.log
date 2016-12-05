@@ -1,3 +1,9 @@
-﻿  Environment.cpp
+﻿  WeatherControl.cpp
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.h(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.cpp(23): warning C4305: '=': truncation from 'double' to 'float'
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.cpp(31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.cpp(33): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.cpp(65): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+d:\study place\inti\lecture materials\csci336 computer graphics\assignments\assignment3\simplerollercoaster\simplerollercoaster\weathercontrol.cpp(108): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   SimpleRollerCoaster.vcxproj -> D:\Study Place\INTI\Lecture Materials\CSCI336 Computer Graphics\Assignments\Assignment3\SimpleRollerCoaster\Debug\SimpleRollerCoaster.exe
   SimpleRollerCoaster.vcxproj -> D:\Study Place\INTI\Lecture Materials\CSCI336 Computer Graphics\Assignments\Assignment3\SimpleRollerCoaster\Debug\SimpleRollerCoaster.pdb (Partial PDB)

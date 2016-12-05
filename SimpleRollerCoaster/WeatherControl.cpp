@@ -49,6 +49,7 @@ void initWeather()
 void drawHail() {
 	float x, y, z;
 
+	glEnable(GL_COLOR_MATERIAL);
 	for (int particleCounter = 0; particleCounter < MAX_PARTICLES; particleCounter = particleCounter + 2) {
 		if (particles[particleCounter].alive == true) {
 			x = particles[particleCounter].xpos;
@@ -118,4 +119,6 @@ void drawHail() {
 			}
 		}
 	}
+
+	glEnable(GL_COLOR_MATERIAL);
 }
